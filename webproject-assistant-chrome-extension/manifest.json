@@ -1,0 +1,19 @@
+{
+  "name": "WEB - Release Test Assistant",
+  "description": "WEB Release test assistant",
+  "version": "0.1.0",
+  "permissions": [
+    "activeTab",
+    "declarativeContent"
+  ],
+  "page_action" :
+  {
+    "default_title" : "View this page's build status",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
